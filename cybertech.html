@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .signup{
+        margin-left: 95%;
+        background-color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    .products{
+        display: flex;
+        gap: 30px; 
+    }
+    .div{
+        border: 1px solid rgb(100, 203, 255);
+        border-radius: 7px;
+    }
+    button{
+        font-size: 50%;
+        background-color: rgb(76, 76, 255);
+    }
+    .button{
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .up{
+        font-size: 15px;
+    }
+    .submit{
+        background-color: white;
+        font-size: 10px;
+        cursor: pointer;
+    }
+</style>
+<body>
+  <h1>cyber tech</h1>
+    <p>კეთილი იყოს თქვენი მობრძანება Cyber Tech-ში — თანამედროვე ტექნიკის მაღაზიაში,
+        სადაც ინოვაცია და ხარისხი ერთმანეთს ხვდება. ჩვენთან დაგხვდებათ კომპიუტერები,
+        ლეპტოპები, სმარტფონები, გეიმინგ აქსესუარები, ყურსასმენები, კლავიატურები, მაუსები და სხვა ტექნოლოგიური მოწყობილობები.
+        ჩვენი მიზანია, შემოგთავაზოთ ხარისხიანი პროდუქცია, კონკურენტული ფასები და მარტივი 
+        ონლაინ შოპინგის გამოცდილება. დაათვალიერეთ პროდუქცია, შეარჩიეთ სასურველი ნივთები 
+        და შეიძინეთ ტექნიკა მარტივად, სწრაფად და კომფორტულად.
+    </p>
+    <hr>
+    <h2>ჩვენი პროდუქცია</h2>
+
+    <div class="products">
+        <div class="div">
+            <img src="./assets/ASUS-TUF-GAMING-FX707VJB-CORE5-210H-16GB-512GB-RTX3050-2.webp" alt="laptop" height="250px" width="250px">
+            <p>ASUS-TUF-GAMING-FX707VJB-CORE5-<br>210H-16GB-512GB-RTX3050-2</p>
+            <del>4700₾</del><br>
+            <b">4000₾</b><br>
+            <button class="button"><p>კალათაში დამატება</p></button>
+        </div> 
+        <div class="div">
+            <img src="./assets/9b820a19-bf1c-4d55-b2b2-53e13a73bc7b.png" alt="მონიტორი" height="250px" width="250px">
+            <p> sMSI MAG 274QP 26.5" 240Hz Gaming <br> მონიტორი</p>
+            <del>3000₾</del><br>
+            <b>2499₾</b> <br>
+            <button><p class="button">კალათაში დამატება</p></button>
+        </div>
+        <div class="div">
+            <img src="./assets/c039d339fa59edb6a5553f981d7524fb.png.webp" alt="mouse" height="250px" width="250px">
+            <p>Razer Mouse Basilisk V3 Pro 35K, <br> RGB, USB-A/WL/BT, black</p>
+            <del>499₾</del> <br>
+            <b>349₾</b> <br>
+            <button><p class="button">კალათაში დამატება</p></button>
+        </div>
+        <div class="div">
+            <img src="./assets/კლავიატურა.jpg_jpg.webp" alt="კლავიატურა" height="250px" width="250px">
+            <p>Xtrfy გეიმინგ კლავიატურა <br> K4 TKL RGB</p>
+            <del>259₾</del> <br>
+            <b>199₾</b> <br>
+            <button><p class="button">კალათაში დამატება</p></button>
+        </div>
+        <div class="div">
+            <img src="./assets/ვიდეოკარტა.png" alt="video karta" height="250px" width="250px">
+            <p>GIGABYTE Graphic Adapter GeForce <br> RTX 5050 8GB GDDR6 WINDFORCE 2 OC</p>
+            <del>1449₾</del> <br>
+            <b>1199₾</b> <br>
+            <button><p class="button">კალათაში დამატება</p></button>
+        </div>
+     </div>
+     <hr>
+     <h1>ჩვენი ლოკაცია</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23851.82219854797!2d41.601254940032966!3d41.64541816375842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067863df8429615%3A0x747947ce84079a25!2sZoommer!5e0!3m2!1sen!2sge!4v1791967242304!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <hr>
+     <h1>გაიარე რეგისტრაცია</h1>
+     <form>
+        <label>სახელი</label> <br>
+        <input type="text" name="სახელი" placeholder="შიყვანე შენი სახელი" required> <br>
+        <label>მეილი</label> <br>
+        <input type="gmail" name="მეილი" placeholder="შიყვანე შენი მეილი" required><br>
+        <label>ნომერი</label> <br>
+        <input type="number" name="number" placeholder="შიყვანე შენი ნომერი" required> <br>
+        <button class="submit"><p>დადასტურება</p></button>
+    </form>
+
+</body>
+</html>
